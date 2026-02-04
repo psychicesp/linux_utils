@@ -11,7 +11,7 @@ requires-python = ">=3.8"
 dependencies = []
 
 [project.scripts]
-harvest = "linux_utils.core:main"
+lt_harvest = "linux_utils.core:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
